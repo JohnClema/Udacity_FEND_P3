@@ -1,7 +1,7 @@
 * {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arvo', sans-serif;
 }
 
 .clearfix {
@@ -14,8 +14,9 @@
 }
 
 h1 {
+  font-family: 'Quicksand', sans-serif;
   font-size: 40px;
-  color: #F5A623;
+  color: #ffffff;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +24,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #516750;
   line-height: 29px;
   padding: 10px;
 }
@@ -31,14 +32,14 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  color: #494d5b;
   line-height: 22px;
 }
 
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4A4A4A;
+  color: #2a2c35;
   line-height: 17px;
 }
 
@@ -48,6 +49,12 @@ h2, h3, h4, h5 {
   padding-right: 5%;
 }
 
+hr {
+  border: 0;
+  height: 2px;
+  background: #dad9a3;
+  background-image: linear-gradient(to right, #dad9a3, #e1dfbf, #dad9a3);
+}
 
 .date-text {
   font-style: italic;
@@ -73,7 +80,7 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #448d8c;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -87,16 +94,20 @@ a {
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #dad9a3;
   display: none;
 }
 
-.orange {
-  background-color: #F5AE23;
+.button {
+  float: right;
 }
 
-.orange-text {
-  color: #F5AE23;
+.olive {
+  background-color: #dad9a3;
+}
+
+.olive-text {
+  color: #dad9a3;
 }
 
 .white-text {
@@ -104,19 +115,18 @@ a {
   color: #FFFFFF;
 }
 
-.gray {
-  background-color: #F3F3F3;
+.light-olive {
+  background-color: #e1dfbf;
   padding-bottom: 10px;
   clear:both;
 }
 
-.dark-gray {
-  background-color: #4A4A4A;
+.dark-green {
+  background-color: #516750;
 }
 
-/* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background: linear-gradient(to right, #516750, #678165);
 }
 
 .flex-box {
@@ -139,11 +149,16 @@ ul {
   list-style-type: none;
 }
 
+div img.biopic{
+    -moz-border-radius: 200px/200px;
+    -webkit-border-radius: 200px 200px;
+    border-radius: 200px/200px;
+    width:200px;
+    height:200px;
+}
+
 .biopic {
   float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
 }
 
 img {
