@@ -46,31 +46,31 @@ var projects = {
     "dateStarted": "June 2015",
     "dateFinished": "June 2015",
     "description": "A basic Jekyll website for Bloom to recieve forms and have Blog Posts",
-    "images": []
+    "images": ["images/197x148.gif","images/197x148.gif"]
   }, {
     "title": "Hamptons Inn",
     "dateStarted": "",
     "dateFinished": "",
     "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
-    "images": []
+    "images": ["images/197x148.gif", "images/197x148.gif"]
   }, {
     "title": "My Life Story",
     "dateStarted": "",
     "dateFinished": "",
     "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
-    "images": []
+    "images": ["images/197x148.gif", "images/197x148.gif"]
   }, {
     "title": "Biosgraphy",
     "dateStarted": "",
     "dateFinished": "",
     "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
-    "images": []
+    "images": ["images/197x148.gif", "images/197x148.gif"]
   }, {
     "title": "WASP",
-    "dateStarted": "",
+    "dateStarted": "January 2012 - March 2014",
     "dateFinished": "",
     "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
-    "images": []
+    "images": ["images/197x148.gif", "images/197x148.gif"]
   }
   // , {
   //   "title": "UEC App",
@@ -201,7 +201,7 @@ projects.display = function() {
 
       if (projects.projects[project].images.length > 0) {
         for (var image in projects.projects[project].images) {
-          var formattedImage = HTMLProjectImage.replace("%data%", projects.projects[project].images[image]);
+          var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[project].images[image]);
           $(".project-entry:last").append(formattedImage);
         }
       }
