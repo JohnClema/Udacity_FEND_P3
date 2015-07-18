@@ -2,7 +2,8 @@
 
 How to run this project:
 
-1. Install npm if you do not have it already
-2. Run npm install
-3. Run gulp
-4. Open the project from the created dist/index.html
+1. Open Terminal
+2. Install npm if you do not have it already
+3. Run npm install within the frontend-nanodegree-resume directory
+4. Run gulp
+5. Open the project from the created dist/index.html

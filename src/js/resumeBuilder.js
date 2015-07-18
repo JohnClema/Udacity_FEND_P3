@@ -49,26 +49,26 @@ var projects = {
     "images": ["images/197x148.gif","images/197x148.gif"]
   }, {
     "title": "Hamptons Inn",
-    "dateStarted": "",
-    "dateFinished": "",
+    "dateStarted": "August 2015",
+    "dateFinished": "August 2015",
     "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
     "images": ["images/197x148.gif", "images/197x148.gif"]
   }, {
     "title": "My Life Story",
-    "dateStarted": "",
-    "dateFinished": "",
+    "dateStarted": "June 2014",
+    "dateFinished": "June 2014",
     "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
     "images": ["images/197x148.gif", "images/197x148.gif"]
   }, {
     "title": "Biosgraphy",
-    "dateStarted": "",
-    "dateFinished": "",
+    "dateStarted": "March 2013",
+    "dateFinished": "June 2014",
     "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
     "images": ["images/197x148.gif", "images/197x148.gif"]
   }, {
     "title": "WASP",
-    "dateStarted": "January 2012 - March 2014",
-    "dateFinished": "",
+    "dateStarted": "January 2012",
+    "dateFinished": "March 2014",
     "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
     "images": ["images/197x148.gif", "images/197x148.gif"]
   }
@@ -117,7 +117,7 @@ var education = {
     "school": "Udacity",
     "dateStarted": "May 7, 2015",
     "dateFinished": "Present",
-    "url": "www.udacity.com"
+    "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
   }]
 };
 
