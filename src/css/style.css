@@ -18,6 +18,7 @@ h1 {
   display: inline;
 }
 h2 {
+  font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-size: 24px;
   color: #516750;
@@ -25,18 +26,21 @@ h2 {
   padding: 10px;
 }
 h3 {
+  font-family: 'Quicksand', sans-serif;
   font-style: italic;
   font-size: 20px;
   color: #494d5b;
   line-height: 22px;
 }
 h4 {
+  font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-size: 14px;
   color: #2a2c35;
   line-height: 17px;
 }
 h2, h3, h4, h5 {
+  font-family: 'Quicksand', sans-serif;
   padding: 10px;
   padding-left: 5%;
   padding-right: 5%;
@@ -67,16 +71,11 @@ p {
   line-height: 21px;
 }
 a {
+  font-family: 'Quicksand', sans-serif;
   color: #448d8c;
   text-decoration: none;
   margin-top: 10px;
   display: block;
-}
-.welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #F3F3F3;
-  line-height: 28px;
 }
 #skillsH3 {
   color: #dad9a3;

@@ -2,7 +2,6 @@ var bio = {
   "name": "John Clema",
   "role": "Software Developer",
   "location": "Perth, Western Australia",
-  "welcomeMessage": "Currently codirecting the BloomLab at St Cat's and consulting software projects",
   "contacts": {
     "mobile": "+61426957222",
     "email": "john.clema@gmail.com",
@@ -13,8 +12,8 @@ var bio = {
     "blog": "http://johnclema.github.io/",
     "location": "Perth, Western Australia"
   },
-  "biopic": "images/face.png",
-  "skills": ["iOS Development", "Front End Web Development", "python", "java", "C"]
+  "biopic": "images/face.jpg",
+  "skills": ["iOS Development", "swift", "Objective-C", "javascript", "C"]
 };
 var work = {
   "jobs": [{
@@ -72,25 +71,6 @@ var projects = {
     "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
     "images": ["images/197x148.gif", "images/197x148.gif"]
   }
-  // , {
-  //   "title": "UEC App",
-  //   "dateStarted": "",
-  //   "dateFinished": "",
-  //   "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
-  //   "images": []
-  // }, {
-  //   "title": "The Coach's Box",
-  //   "dateStarted": "",
-  //   "dateFinished": "",
-  //   "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
-  //   "images": []
-  // }, {
-  //   "title": "Lego Robot",
-  //   "dateStarted": "",
-  //   "dateFinished": "",
-  //   "description": "Tattooed DIY four dollar toast meggings chambray, +1 cred post-ironic tilde. Kogi meh 8-bit irony, raw denim Pinterest actually ethical brunch slow-carb. Yr narwhal synth Tumblr Williamsburg. IPhone pickled biodiesel Truffaut kogi, meggings cred before they sold out tote bag 8-bit drinking vinegar keytar. Skateboard whatever locavore flexitarian, health goth mlkshk Vice yr meh. Meditation 3 wolf moon PBR organic wolf pour-over. Art party pop-up direct trade kogi, whatever swag meh 3 wolf moon selfies pour-over.",
-  //   "images": []
-  // }
 ]
 };
 
@@ -124,7 +104,6 @@ var education = {
 bio.display = function() {
   var formattedName = HTMLheaderName.replace("%data%", bio.name);
   var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-  var formattedWelcome = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
   var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
 
   var contacts = bio.contacts;
@@ -143,7 +122,6 @@ bio.display = function() {
   $("#topContacts").prepend(formattedEmail);
   $("#topContacts").prepend(formattedMobile);
 
-  $("#header").prepend(formattedWelcome);
   $("#header").prepend(formattedBioPic);
   $("#header").prepend(formattedRole);
   $("#header").prepend(formattedName);
@@ -263,5 +241,4 @@ function inName(name) {
   return name[0] + " " + name[1];
 }
 
-$("#header").append(internationalizeButton);
 $("#mapDiv").append(googleMap);
